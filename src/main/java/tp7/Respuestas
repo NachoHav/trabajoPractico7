@@ -1,0 +1,5 @@
+a. ¿Por qué  ambos tienen la misma cantidad si al último alumno lo inscribió en 4 materias? 
+b. ¿Qué tipo de colección implementó para evitar materias repetidas y que otras cuestiones tuvo que modificar
+
+Tienen la misma cantidad de materias por el hecho de que use HashSet, que no repite elementos.
+Pero tambien se ve que no se cargan mas datos porque en el if pregunto si ya se encuentra o no la materia a agregar, asi que en ambos casos no se hubiera agregado.
